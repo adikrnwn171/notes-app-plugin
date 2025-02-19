@@ -39,7 +39,7 @@ class UsersService {
 
     if (result.rows.length > 0) {
       throw new InvariantError(
-        "Gagal menambahkan user. Username telah digunakan"
+        "Gagal menambahkan user. Username sudah digunakan."
       );
     }
   }
